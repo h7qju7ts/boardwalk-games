@@ -1,6 +1,11 @@
+body {
+    font-family: "Inter";
+}
+h1 {
+    font-family: "Macondo";
+}
 p {
     color:blue;
-    font-style: italic;
     font: bold;
     font-size: large;
 }
