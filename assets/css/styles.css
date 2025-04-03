@@ -77,3 +77,36 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* media queries */
+/* Medium devices (tablets,768px and up */
+@media screen and (min-width: 768px) {
+    /* Make all the service cards the same height for consistency */
+   #services .card-body {
+    min-height: 191px;
+   } 
+   
+   
+}
+/* Large devices (small laptops,992px and up) */
+@media screen and (min-width: 992px) {
+    /* Make all the service cards the same height for consistency */
+   #services .card-body {
+    min-height: auto;
+   } 
+}
+/* Extra Large devices */
+@media screen and (min-width: 1200px) {
+     /* Make all the service cards the same height for consistency */
+     #services .card-body {
+        min-height: 220px;
+     }
+
+    
+}
+/* XXL Devices */
+@media screen and (min-width: 1400px) {
+    #services .card-body{
+        min-height: 195px;
+    }
+}
