@@ -65,7 +65,32 @@ h2 {
 }
 #servicers .card {
     margin-bottom:1.5rem;
+    border: none;
 }
+
+/* New Games */
+#new-games {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+#new-games .card {
+    margin-bottom:1.5rem;
+    border: none;
+}
+
+
+/* Fav-Games */
+#fav-games {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+#fav-games .card {
+    margin-bottom:1.5rem;
+    border: none;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
