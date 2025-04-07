@@ -108,6 +108,10 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+/* WILDCARD (*) WILL REMOVE THE BACKGROUND COLOR OF THE TABLE */
+#contact .table-dark * {
+    background-color: transparent;
+}
 
 /* grid visualisation CSS for testing */
 
