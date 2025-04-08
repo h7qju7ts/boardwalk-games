@@ -132,6 +132,16 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+/* Events */
+#discount {
+
+    color: white;
+    background-color: var(--highlight-color) ;
+
+
+ }
+
+
 
  /* grid visualisation CSS for testing  */
 
