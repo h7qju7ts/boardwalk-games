@@ -137,9 +137,8 @@ h2 {
 
     color: white;
     background-color: var(--highlight-color) ;
-
-
- }
+    margin: auto;
+}
 
 
 
