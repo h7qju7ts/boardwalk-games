@@ -133,6 +133,7 @@ h2 {
     background-color: transparent;
 }
 /* Events */
+
 #discount {
 
     color: white;
@@ -140,6 +141,12 @@ h2 {
     margin: auto;
 }
 
+/* reservations */
+
+#reservations-btn {
+    display: flex;
+    justify-content: right;
+}
 
 
  /* grid visualisation CSS for testing  */
@@ -162,12 +169,18 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    #events {
+        min-height: 191px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
+        min-height: auto;
+    }
+    #events {
         min-height: auto;
     }
 }
@@ -178,12 +191,19 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+    #events {
+        min-height: 220px;
+    }
+    /* make all service cards the same height for consistency */
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
+        min-height: 195px;
+    }
+    #events {
         min-height: 195px;
     }
 }
