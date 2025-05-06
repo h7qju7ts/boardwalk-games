@@ -15,7 +15,11 @@
 /* Global styles section */
 
 body {
+  
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    
+    
 }
 
 h1,
@@ -50,6 +54,7 @@ h2 {
     color: white;
 }
 /* Hover function */
+
 /* Navbar Button */
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
@@ -73,6 +78,8 @@ h2 {
 
 #navbar {
     background-color: var(--primary-color);
+
+    
 }
 #navbar .logo {
     width: 30px;
@@ -99,7 +106,41 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+/* Events Section */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+
+
+#events-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+
 /* FOOTER/CONTACT */
+footer {
+    width: 100%;
+}
 #contact {
     background-color: var(--primary-color);
     color: white;
@@ -141,6 +182,7 @@ h2 {
 }   */
 
 /* MEDIA QUERRIES */
+/* Small devices */
 
 /* Medium devices (tablets , 768px and above) */
 @media screen and (min-width:768px) {
@@ -148,6 +190,9 @@ h2 {
 #services .card-body {
     min-height: 191px;
 
+}
+.student-discount {
+    font-size: 1rem;
 }
 }
 /* Large devices (small laptops, 992px and up) */
@@ -164,6 +209,8 @@ h2 {
 #services .card-body {
     min-height: 220px;
 }
+
+
 
 
 }
